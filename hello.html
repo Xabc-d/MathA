@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content>
+<meta name="description" content="An Hello World! example">
+<meta name="keywords" content>
+<meta name="theme-color" content="#2d2c2c">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover">
+<meta property="og:url" content="http://127.0.0.1:52414/hello">
+<meta property="og:title" content>
+<meta content="An Hello World! example" property="og:description">
+<meta property="og:type" content="website">
+<meta property="og:image" content>
+<title></title>
+<link type="text/css" rel="preload" href="/MathA/app.css" as="style">
+<link type="text/css" rel="preload" href="./web/bootstrap/dist/css/bootstrap.css" as="style">
+<link rel="icon" href="https://raw.githubusercontent.com/maxence-charriere/go-app/master/docs/web/icon.svg">
+<link rel="apple-touch-icon" href="/MathA/web/logo-apple.png">
+<link rel="manifest" href="/MathA/manifest.webmanifest">
+<link href="/MathA/app.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./web/bootstrap/dist/css/bootstrap.css">
+<script defer src="/MathA/wasm_exec.js"></script>
+<script defer src="/MathA/app.js"></script>
+<script src="/MathA/web/bootstrap/dist/bootstrap.bundle.js"></script>
+</head>
+<body>
+<main>
+<div class="container-fluid" style="background-color:#F0F8FF;height:100vh;">
+<div class="row bg-primary" style="min-height:50px;"></div>
+<div class="row" style="background-color:#add8e6;"><h1 style="width:90%;margin:0 auto;">HelloMath</h1></div>
+<div>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+            window.MathJax = {
+                tex: {
+                    inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]]
+                },
+                svg: {
+                    fontCache: &#39;global&#39;
+                }
+            };
+        </script>
+</div>
+<div style="height:30vh;">
+<h6 style="margin-top:10vh;font-size:20px;text-align:center;">These questions are designed for COMS10014 Maths A</h6>
+<h6 style="margin-top:10vh;font-size:18px;text-align:center;">Please note that these questions are primarily aimed to help you achieve a mark of 50</h6>
+<h6 style="margin-top:2vh;font-size:18px;text-align:center;">for higher expectations please refer to more specialized sources</h6>
+</div>
+<div class="row" style="justify-content:center;">
+<a href="week01" class="clickable-square" style="width:20vh;height:20vh;position:relative;background-color:#add8e6;display:flex;justify-content:center;align-items:center;margin:3vh;">
+<img alt="Embedded clickable image" src="/MathA/web/func.svg" style="width:15vh;height:15vh;position:absolute;top:0;">
+<h5 style="color:black;position:absolute;bottom:0;">Terms</h5>
+</a>
+<a href="week02" class="clickable-square" style="width:20vh;height:20vh;position:relative;background-color:#add8e6;display:flex;justify-content:center;align-items:center;margin:3vh;">
+<img src="/MathA/web/func.svg" style="width:15vh;height:15vh;position:absolute;top:0;" alt="Embedded clickable image">
+<h5 style="color:black;position:absolute;bottom:0;">Logic</h5>
+</a>
+<a href="week08" class="clickable-square" style="width:20vh;height:20vh;position:relative;background-color:#add8e6;display:flex;justify-content:center;align-items:center;margin:3vh;">
+<img src="/MathA/web/func.svg" style="width:15vh;height:15vh;position:absolute;top:0;" alt="Embedded clickable image">
+<h5 style="color:black;position:absolute;bottom:0;">Sets</h5>
+</a>
+<a class="clickable-square" style="width:20vh;height:20vh;position:relative;background-color:#add8e6;display:flex;justify-content:center;align-items:center;margin:3vh;" href="week09">
+<img src="/MathA/web/func.svg" style="width:15vh;height:15vh;position:absolute;top:0;" alt="Embedded clickable image">
+<h5 style="color:black;position:absolute;bottom:0;">Functions</h5>
+</a>
+<a href="week10" class="clickable-square" style="width:20vh;height:20vh;position:relative;background-color:#add8e6;display:flex;justify-content:center;align-items:center;margin:3vh;">
+<img src="/MathA/web/func.svg" style="width:15vh;height:15vh;position:absolute;top:0;" alt="Embedded clickable image">
+<h5 style="color:black;position:absolute;bottom:0;">Relations</h5>
+</a>
+<a class="clickable-square" style="width:20vh;height:20vh;position:relative;background-color:#add8e6;display:flex;justify-content:center;align-items:center;margin:3vh;" href="all">
+<img src="/MathA/web/func.svg" style="width:15vh;height:15vh;position:absolute;top:0;" alt="Embedded clickable image">
+<h5 style="color:black;position:absolute;bottom:0;">All</h5>
+</a>
+</div>
+</div>
+<div class="row"></div>
+</main>
+<aside id="app-wasm-loader" class="goapp-app-info">
+<img id="app-wasm-loader-icon" class="goapp-logo goapp-spin" src="/MathA/web/logo.png">
+<p id="app-wasm-loader-label" class="goapp-label">0%</p>
+</aside>
+</body>
+</html>

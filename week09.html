@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content>
+<meta content="An Hello World! example" name="description">
+<meta name="keywords" content>
+<meta name="theme-color" content="#2d2c2c">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover">
+<meta property="og:url" content="http://127.0.0.1:52414/week09">
+<meta property="og:title" content>
+<meta property="og:description" content="An Hello World! example">
+<meta property="og:type" content="website">
+<meta property="og:image" content>
+<title></title>
+<link type="text/css" rel="preload" href="/MathA/app.css" as="style">
+<link type="text/css" rel="preload" href="./web/bootstrap/dist/css/bootstrap.css" as="style">
+<link rel="icon" href="https://raw.githubusercontent.com/maxence-charriere/go-app/master/docs/web/icon.svg">
+<link rel="apple-touch-icon" href="/MathA/web/logo-apple.png">
+<link rel="manifest" href="/MathA/manifest.webmanifest">
+<link href="/MathA/app.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./web/bootstrap/dist/css/bootstrap.css">
+<script defer src="/MathA/wasm_exec.js"></script>
+<script defer src="/MathA/app.js"></script>
+<script src="/MathA/web/bootstrap/dist/bootstrap.bundle.js"></script>
+</head>
+<body>
+<div class="container-fluid" style="background-color:#F0F8FF;min-height:100vh;">
+<div class="row bg-primary" style="min-height:50px;"></div>
+<div class="row" style="background-color:#add8e6;"><h1 style="width:90%;margin:0 auto;">HelloMath</h1></div>
+<div>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+            window.MathJax = {
+                tex: {
+                    inlineMath: [[&#39;$&#39;, &#39;$&#39;], [&#39;\\(&#39;, &#39;\\)&#39;]]
+                },
+                svg: {
+                    fontCache: &#39;global&#39;
+                }
+            };
+        </script>
+</div>
+<div class="row">
+<div class="col-2"><div class="container-fluid"><div class="row"><div class="text-bg-light sidebar" style="height:100vh;border-right:1px solid rgba(0, 0, 0, .1);"><ul class="nav flex-column" style="white-space:nowrap;overflow-x:auto;overflow-y:auto;">
+<li class="nav-item" style="max-width:100%;margin:0 auto;"><a class="nav-link active" href="week01">Terms</a></li>
+<li class="nav-item" style="max-width:100%;margin:0 auto;"><a href="week02" class="nav-link active">Logic</a></li>
+<li class="nav-item" style="max-width:100%;margin:0 auto;"><a class="nav-link active" href="week08">Sets</a></li>
+<li class="nav-item" style="max-width:100%;margin:0 auto;"><a class="nav-link active" href="week09">Function</a></li>
+<li class="nav-item" style="max-width:100%;margin:0 auto;"><a class="nav-link active" href="week10">Relations</a></li>
+<li class="nav-item" style="max-width:100%;margin:0 auto;"><a class="nav-link active" href="all">All</a></li>
+</ul></div></div></div></div>
+<div class="col-10">
+<div style="height:8vh;"><h6 style="margin-top:4vh;">Instructions HelloMath!</h6></div>
+<div>
+<input id="seedInput" type="text" value>
+<button>Generate Seed</button>
+<button>up</button>
+<button>down</button>
+</div>
+<h6>Seed Value: </h6>
+<div style="height:3vh;"></div>
+</div>
+</div>
+</div>
+<aside id="app-wasm-loader" class="goapp-app-info">
+<img id="app-wasm-loader-icon" class="goapp-logo goapp-spin" src="/MathA/web/logo.png">
+<p id="app-wasm-loader-label" class="goapp-label">0%</p>
+</aside>
+</body>
+</html>
